@@ -1,0 +1,164 @@
+/*
+board chess style
+*/
+.board{
+
+    height: 720px;
+    width: 720px;
+    margin: 30px auto;
+    border: 1px solid black;
+    float: left;
+}
+ 
+.block{
+
+    height: 80px;
+    width: 80px;
+   	float: left;
+   	text-align: center;
+   	font-size: 200%;
+   	color: #9E9E9E;
+}
+ 
+.black{
+
+	cursor: pointer;
+    background: #000000c9;
+}
+ 
+.white{
+
+	cursor: pointer;
+    background: white;
+}
+
+.left,.right{
+
+	width: 39px;
+	line-height: 80px;
+}
+
+.left{
+
+    border-right: 1px solid #9e9e9e;
+}
+
+.right{
+
+    border-left: 1px solid #9e9e9e;
+}
+
+.top,.bottom{
+
+	height: 39px;
+	line-height: 39px;
+	text-transform: uppercase;
+}
+
+.top{
+
+    border-bottom: 1px solid #9e9e9e;
+}
+
+.bottom{
+
+    border-top: 1px solid #9e9e9e;
+}
+
+.corner{
+
+	height: 40px;
+	width: 40px;
+}
+
+.black[data-active='2']{
+
+	background: #0b5a11d9;
+}
+
+.white[data-active='2']{
+
+    background: #0c5a0b91;
+}
+
+
+.block[data-active='1']{
+
+	background: #3f51b5;
+}
+/*
+Piece style
+*/
+.piece{
+
+    height: 160px;
+    width: 480px;
+    margin: 30px 20px;
+    float: left;
+}
+
+.conteinerImg{
+
+    height: 80px;
+    width: 80px;
+    float: left;
+    cursor: pointer;
+}
+
+.conteinerImg[data-select='1']{
+
+    background: #3f51b5;
+}
+/*
+Out block style
+*/
+.out{
+
+    height: 160px;
+    width: 480px;
+    margin: 30px auto;
+    float: left;
+    text-align: center;
+    font-size: 150%;
+    color: #333333;
+}
+/*
+FormChess style
+*/
+.form{
+
+    height: 200px;
+    width: 480px;
+    margin: 30px 20px;
+    float: left;
+    border: 1px solid black;
+}
+
+#input, #titleform, #outform{
+
+    height: 20px;
+    width: 450px;
+    margin: 5px 5px;
+    float: left;
+}
+
+#titleform, #outform{
+
+    font-size: 120%;
+    color: black;
+}
+
+#button{
+    height: 40px;
+    width: 40px;
+    margin: 5px 5px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
